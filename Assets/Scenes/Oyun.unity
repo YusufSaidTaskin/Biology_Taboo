@@ -495,9 +495,10 @@ GameObject:
   - component: {fileID: 422900739}
   - component: {fileID: 422900741}
   - component: {fileID: 422900740}
+  - component: {fileID: 422900742}
   m_Layer: 5
   m_Name: PuanText
-  m_TagString: Untagged
+  m_TagString: PuanText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -563,6 +564,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422900738}
   m_CullTransparentMesh: 1
+--- !u!114 &422900742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422900738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c9e331d5e2d0c45920c7eebb086220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -199}
+  m_AnchoredPosition: {x: -50, y: -223}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &693884787
@@ -1864,7 +1877,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1373670949}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 422900742}
+        m_TargetAssemblyTypeName: PuanKontrol, Assembly-CSharp
+        m_MethodName: DogruButon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1373670949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2632,7 +2657,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1712011257}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 422900742}
+        m_TargetAssemblyTypeName: PuanKontrol, Assembly-CSharp
+        m_MethodName: PasButon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1712011257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3010,7 +3047,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2002300782}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 422900742}
+        m_TargetAssemblyTypeName: PuanKontrol, Assembly-CSharp
+        m_MethodName: TabuButon
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2002300782
 MonoBehaviour:
   m_ObjectHideFlags: 0
