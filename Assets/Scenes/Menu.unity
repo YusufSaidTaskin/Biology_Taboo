@@ -1318,6 +1318,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604768887}
   m_CullTransparentMesh: 1
+--- !u!1 &605181346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 605181348}
+  - component: {fileID: 605181347}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &605181347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605181346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13c16b73e716a54c87e52e54f2f0773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secilenLevel: 0
+--- !u!4 &605181348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605181346}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.13185, y: 0.86241, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621005433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,7 +1896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 136aefccb66624b4faa24bc011006be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
   timeholder: {fileID: 11400000, guid: a78bf197ebb6ec342ad76c45639939f8, type: 2}
 --- !u!1 &791139759
 GameObject:
@@ -4367,6 +4411,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1888528517}
+        m_TargetAssemblyTypeName: DiificultyDropdown, Assembly-CSharp
+        m_MethodName: LevelSecildi
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1888528515
 MonoBehaviour:
@@ -4418,6 +4474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7ec2cfd77dc1c48acd66728c9112cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropdown: {fileID: 1888528514}
 --- !u!1 &1943199318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4451,11 +4508,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1836004020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 150}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -250}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1943199320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4922,3 +4979,4 @@ SceneRoots:
   - {fileID: 1836004020}
   - {fileID: 1086704782}
   - {fileID: 702019841}
+  - {fileID: 605181348}
