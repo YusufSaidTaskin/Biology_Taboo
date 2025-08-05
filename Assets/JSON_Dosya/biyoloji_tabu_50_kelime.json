@@ -1,0 +1,555 @@
+{
+    "kartlar": [
+
+        {
+            "level": 1,
+            "anaKelime": "Hücre",
+            "yasaklıKelimeler": [
+                "Canlı",
+                "Temel",
+                "Yapı",
+                "Birim",
+                "Mikroskop"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Organ",
+            "yasaklıKelimeler": [
+                "Vücut",
+                "Sistem",
+                "Görev",
+                "Doku",
+                "Kalp"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Fotosentez",
+            "yasaklıKelimeler": [
+                "Bitki",
+                "Güneş",
+                "Işık",
+                "Karbon",
+                "Oksijen"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Mitoz",
+            "yasaklıKelimeler": [
+                "Bölünme",
+                "Hücre",
+                "Eş",
+                "Kopya",
+                "Yenilenme"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Kemik",
+            "yasaklıKelimeler": [
+                "İskelet",
+                "Sert",
+                "Vücut",
+                "Kalsiyum",
+                "Destek"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Kas",
+            "yasaklıKelimeler": [
+                "Hareket",
+                "İskelet",
+                "Kol",
+                "Güç",
+                "Vücut"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Akciğer",
+            "yasaklıKelimeler": [
+                "Solunum",
+                "Oksijen",
+                "Hava",
+                "Karbon",
+                "Gaz"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Sindirim",
+            "yasaklıKelimeler": [
+                "Besin",
+                "Mide",
+                "Ağız",
+                "Enzim",
+                "Bağırsak"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "İskelet",
+            "yasaklıKelimeler": [
+                "Kemik",
+                "Vücut",
+                "Destek",
+                "Hareket",
+                "Koruma"
+            ]
+        },
+        {
+            "level": 1,
+            "anaKelime": "Duyu Organı",
+            "yasaklıKelimeler": [
+                "Göz",
+                "Kulak",
+                "Burun",
+                "Dil",
+                "Deri"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "DNA",
+            "yasaklıKelimeler": [
+                "Gen",
+                "Kalıtım",
+                "Molekül",
+                "Sarmal",
+                "Bilgi"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Gen",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Kalıtım",
+                "Bilgi",
+                "Kromozom",
+                "Özellik"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Kromozom",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Gen",
+                "Çekirdek",
+                "X",
+                "Y"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Mutasyon",
+            "yasaklıKelimeler": [
+                "Değişim",
+                "Gen",
+                "DNA",
+                "Hata",
+                "Hastalık"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Mayoz",
+            "yasaklıKelimeler": [
+                "Bölünme",
+                "Kromozom",
+                "Gamete",
+                "Yarı",
+                "Üreme"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Organizma",
+            "yasaklıKelimeler": [
+                "Canlı",
+                "Sistem",
+                "Hücre",
+                "Biyoloji",
+                "Hayat"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Enzim",
+            "yasaklıKelimeler": [
+                "Protein",
+                "Hızlandırır",
+                "Tepkime",
+                "Canlı",
+                "Katalizör"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Ribozom",
+            "yasaklıKelimeler": [
+                "Protein",
+                "Sentez",
+                "Organel",
+                "RNA",
+                "Hücre"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Adaptasyon",
+            "yasaklıKelimeler": [
+                "Uyum",
+                "Ortam",
+                "Değişim",
+                "Canlı",
+                "Evrim"
+            ]
+        },
+        {
+            "level": 2,
+            "anaKelime": "Hormon",
+            "yasaklıKelimeler": [
+                "Kimyasal",
+                "İletişim",
+                "Büyüme",
+                "Salgı",
+                "Dolaşım"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Protein",
+            "yasaklıKelimeler": [
+                "Aminoasit",
+                "Besin",
+                "Yapı",
+                "Kas",
+                "Enzim"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "RNA",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Tek",
+                "Genetik",
+                "Haberci",
+                "Sentez"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Aminoasit",
+            "yasaklıKelimeler": [
+                "Protein",
+                "Yapıtaşı",
+                "Besin",
+                "Organik",
+                "Asit"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Fotosistem",
+            "yasaklıKelimeler": [
+                "Kloroplast",
+                "Işık",
+                "Pigment",
+                "Fotosentez",
+                "Zincir"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Karbondioksit",
+            "yasaklıKelimeler": [
+                "Gaz",
+                "Solunum",
+                "Fotosentez",
+                "Oksijen",
+                "Nefes"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Klorofil",
+            "yasaklıKelimeler": [
+                "Yeşil",
+                "Pigment",
+                "Bitki",
+                "Işık",
+                "Fotosentez"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Mutualizm",
+            "yasaklıKelimeler": [
+                "İlişki",
+                "Fayda",
+                "Canlı",
+                "Doğa",
+                "Birlikte"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Popülasyon",
+            "yasaklıKelimeler": [
+                "Canlı",
+                "Topluluk",
+                "Alan",
+                "Ekosistem",
+                "Sayısı"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Ekosistem",
+            "yasaklıKelimeler": [
+                "Canlı",
+                "Çevre",
+                "Etkileşim",
+                "Doğa",
+                "Biyotik"
+            ]
+        },
+        {
+            "level": 3,
+            "anaKelime": "Besin Zinciri",
+            "yasaklıKelimeler": [
+                "Enerji",
+                "Tüketici",
+                "Üretici",
+                "Canlı",
+                "Avcı"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Difüzyon",
+            "yasaklıKelimeler": [
+                "Geçiş",
+                "Zar",
+                "Yoğunluk",
+                "Pasif",
+                "Hücre"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Osmoz",
+            "yasaklıKelimeler": [
+                "Su",
+                "Zar",
+                "Geçirgen",
+                "Yoğunluk",
+                "Difüzyon"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Homeostazi",
+            "yasaklıKelimeler": [
+                "Denge",
+                "İç",
+                "Ortam",
+                "Vücut",
+                "Sabit"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Plazmoliz",
+            "yasaklıKelimeler": [
+                "Su",
+                "Hücre",
+                "Büzülme",
+                "Zar",
+                "Bitki"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Epidermis",
+            "yasaklıKelimeler": [
+                "Deri",
+                "Doku",
+                "Üst",
+                "Bitki",
+                "Koruma"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Floem",
+            "yasaklıKelimeler": [
+                "Taşıma",
+                "Besin",
+                "Bitki",
+                "Damar",
+                "Şeker"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Ksilem",
+            "yasaklıKelimeler": [
+                "Su",
+                "Mineral",
+                "Bitki",
+                "Taşıma",
+                "Odun"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Eşey",
+            "yasaklıKelimeler": [
+                "Dişi",
+                "Erkek",
+                "Üreme",
+                "Genetik",
+                "Fark"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Embriyo",
+            "yasaklıKelimeler": [
+                "Gelişim",
+                "Yumurta",
+                "Canlı",
+                "Zigot",
+                "Üreme"
+            ]
+        },
+        {
+            "level": 4,
+            "anaKelime": "Zigot",
+            "yasaklıKelimeler": [
+                "Döllenme",
+                "Sperm",
+                "Yumurta",
+                "Tek",
+                "Hücre"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Nükleotid",
+            "yasaklıKelimeler": [
+                "DNA",
+                "RNA",
+                "Fosfat",
+                "Şeker",
+                "Baz"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Replikasyon",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Kopyalama",
+                "Sentez",
+                "Çift",
+                "Enzim"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Transkripsiyon",
+            "yasaklıKelimeler": [
+                "RNA",
+                "DNA",
+                "Yazım",
+                "Haberci",
+                "Gen"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Translasyon",
+            "yasaklıKelimeler": [
+                "Protein",
+                "mRNA",
+                "Ribozom",
+                "Aminoasit",
+                "Şifre"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Operon",
+            "yasaklıKelimeler": [
+                "Gen",
+                "Bakteri",
+                "Kontrol",
+                "DNA",
+                "Promotor"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Apoptoz",
+            "yasaklıKelimeler": [
+                "Hücre",
+                "Ölüm",
+                "Programlı",
+                "DNA",
+                "Parçalanma"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Genetik Mühendisliği",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Gen",
+                "Teknoloji",
+                "Klonlama",
+                "Transfer"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Biyoteknoloji",
+            "yasaklıKelimeler": [
+                "Canlı",
+                "Uygulama",
+                "Gen",
+                "Teknoloji",
+                "DNA"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "PCR",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Çoğaltma",
+                "Teknik",
+                "Laboratuvar",
+                "Zincir"
+            ]
+        },
+        {
+            "level": 5,
+            "anaKelime": "Elektroforez",
+            "yasaklıKelimeler": [
+                "DNA",
+                "Ayrıştırma",
+                "Jel",
+                "Parça",
+                "Laboratuvar"
+            ]
+        }
+    ]
+}

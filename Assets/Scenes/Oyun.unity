@@ -1152,6 +1152,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731626058}
   m_CullTransparentMesh: 1
+--- !u!1 &757184029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757184031}
+  - component: {fileID: 757184030}
+  m_Layer: 0
+  m_Name: VeriYukleyici
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &757184030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757184029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a51fd9eddc4e640b0d14c04cd9b572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonDosyasi: {fileID: 4900000, guid: bb5083d3a8620cd4f87783838465aec7, type: 3}
+  kartListesi:
+    kartlar: []
+--- !u!4 &757184031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757184029}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818204627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,7 +1346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Biology Taboo
+  m_Text: Biyoloji Tabusu
 --- !u!222 &925566075
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2486,7 +2533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Red Team's Turn
+  m_Text: KIRMIZI TAKIMIN SIRASI
 --- !u!222 &1663640826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3204,3 +3251,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 92008058}
   - {fileID: 1845495781}
+  - {fileID: 757184031}
