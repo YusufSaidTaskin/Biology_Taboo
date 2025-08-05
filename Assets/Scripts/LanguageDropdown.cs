@@ -29,14 +29,14 @@ public class LanguageDropdown : MonoBehaviour
 
         nesne.AddOptions(bayraklistesi);
     }
-
     public void DropdownSample(int index)
     {
-        switch(index)
+        switch (index)
         {
             case 0: Debug.Log("Türkçe"); break;
             case 1: Debug.Log("English"); break;
             case 2: Debug.Log("Espanyol"); break;
+            case 3: Debug.Log("Deutsch"); break;
         }
     }
 }
