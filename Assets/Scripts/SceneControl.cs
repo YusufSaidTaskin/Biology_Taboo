@@ -12,6 +12,8 @@ public class SceneControl : MonoBehaviour
     public void GoToPlayScene()
     {
         SceneManager.LoadSceneAsync("Oyun");
+        PlayerPrefs.DeleteKey("PlayerScore");
+        PlayerPrefs.DeleteKey("GameTime");
     }
 
     public void GoToMenuScene()
@@ -21,11 +23,17 @@ public class SceneControl : MonoBehaviour
 
     public void RestartPlayScene1()
     {
-         SceneManager.LoadSceneAsync("Oyun");
+        PlayerPrefs.DeleteKey("PlayerScore");
+        PlayerPrefs.DeleteKey("GameTime");
+
+        SceneManager.LoadSceneAsync("Oyun");
     }
 
     public void RestartPlayScene2()
     {
+        PlayerPrefs.DeleteKey("PlayerScore");
+        PlayerPrefs.DeleteKey("GameTime");
+
         SceneManager.LoadSceneAsync("Oyun2");
     }
 

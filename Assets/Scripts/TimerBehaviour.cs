@@ -3,39 +3,60 @@ using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
-
 public class CountdownTimer : MonoBehaviour
 {
     public TimeHolder timeHolder;
-    private int countdownTime;        // Baþlangýç süresi
-    public TextMeshProUGUI countdownText;            // UI üzerindeki Text (Legacy UI için)
+    private int countdownTime;
+    public TextMeshProUGUI countdownText;
     public GameObject panel;
+
     void Start()
     {
-        countdownTime = timeHolder.totalTime;
+        LoadTime();
         StartCoroutine(StartCountdownScene1());
     }
 
     IEnumerator StartCountdownScene1()
     {
-        
         int currentTime = countdownTime;
+
+        while (currentTime > 0)
         {
-            
-            while (currentTime > 0)
+            while (panel.activeSelf)
             {
-                if (!panel.activeSelf)
-                {
-                    countdownText.text = currentTime.ToString();
-                    yield return new WaitForSeconds(1f);
-                    currentTime--;
-                }
-               
+                yield return null;
             }
 
-            countdownText.text = "Süre Doldu!";
-            FindAnyObjectByType<SceneControl>().SureBittiScene1();
+            countdownText.text = currentTime.ToString();
+
+            SaveTime(currentTime);  // Süreyi her saniye kaydet
+
+            currentTime--;
+
+            yield return new WaitForSeconds(1f);
         }
-        
+
+        countdownText.text = "Süre Doldu!";
+        PlayerPrefs.DeleteKey("GameTime"); // Süre bittiðinde kaydý temizle
+
+        FindAnyObjectByType<SceneControl>().SureBittiScene1();
+    }
+
+    void SaveTime(int time)
+    {
+        PlayerPrefs.SetInt("GameTime", time);
+        PlayerPrefs.Save();
+    }
+
+    void LoadTime()
+    {
+        if (PlayerPrefs.HasKey("GameTime"))
+        {
+            countdownTime = PlayerPrefs.GetInt("GameTime");
+        }
+        else
+        {
+            countdownTime = timeHolder.totalTime; // default süre
+        }
     }
 }
