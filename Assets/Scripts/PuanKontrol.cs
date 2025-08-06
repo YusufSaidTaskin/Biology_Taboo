@@ -6,31 +6,54 @@ public class PuanKontrol : MonoBehaviour
     Text puanText;
     int puan = 0;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         puanText = GetComponent<Text>();
-        puanText.text = "" + puan.ToString();
+        LoadScore();  // Baþlangýçta puaný yükle
+        UpdateScoreText();
     }
 
-    public void DogruButon() 
+    public void DogruButon()
     {
         puan++;
-        puanText.text = ""+puan.ToString();
+        UpdateScoreText();
+        SaveScore();
     }
 
-    public void TabuButon() 
+    public void TabuButon()
     {
         puan--;
-        puanText.text = ""+puan.ToString();
+        UpdateScoreText();
+        SaveScore();
     }
 
     public void PasButon()
     {
-        puan++;
-        puan--;
-        puanText.text = "" + puan.ToString();
+        // puan deðiþmiyor aslýnda, ama sen yine de text güncellemiþsin
+        UpdateScoreText();
+        SaveScore();
     }
 
+    void UpdateScoreText()
+    {
+        puanText.text = puan.ToString();
+    }
+
+    void SaveScore()
+    {
+        PlayerPrefs.SetInt("PlayerScore", puan);
+        PlayerPrefs.Save();
+    }
+
+    void LoadScore()
+    {
+        if (PlayerPrefs.HasKey("PlayerScore"))
+        {
+            puan = PlayerPrefs.GetInt("PlayerScore");
+        }
+        else
+        {
+            puan = 0;
+        }
+    }
 }
